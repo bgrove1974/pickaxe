@@ -15,8 +15,16 @@ counts    = count_frequency(word_list)
 sorted    = counts.sort_by {|word, count| count}
 top_five  = sorted.last(5)
 
-for i in 0...5
-  word  = top_five[i][0]
-  count = top_five[i][1]
-  puts "#{word}:  #{count}"
-end
+# for i in 0...5
+  # word  = top_five[i][0]
+  # count = top_five[i][1]
+  # puts "#{word}:  #{count}"
+# end
+
+# Instead of the for loop, use an iterator (the method 'each').
+# top_five.each do |word, count|
+  # puts "#{word}:  #{count}"
+# end
+
+# The above code put more compactly:
+puts top_five.map { |word, count| "#{word}:  #{count}" }
