@@ -48,7 +48,8 @@ end
 
 # Here is a trivial example of reimplementing a while loop using a method.
 # Because the condition is passed as a block, it can be evaluated each time around the loop.
-
+# The ampersand tells Ruby that 'body' isn’t a method argument but a reference to the block passed to that method.
+# Leave out the ampersand, and 'body' will be treated as a regular method argument.
 def my_while(cond, &body)
   while cond.call
     body.call
