@@ -32,3 +32,4 @@ server = LogServer.new
 server.start.join
 
 # $ telnet 127.0.0.1 12345
+# $ http://127.0.0.1:12345
