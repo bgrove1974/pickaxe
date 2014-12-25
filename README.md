@@ -1,3 +1,3 @@
 Code from the pickaxe book, third edition.
 
-Ch 5.3 Mixins pp 76
+Ch 5.5 Composing Modules pp 77
