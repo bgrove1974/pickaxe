@@ -1,3 +1,3 @@
 Code from the pickaxe book, third edition.
 
-Ch 7 Regular Expressions pp 93
+Ch 7.3 Digging Deeper pp 96
