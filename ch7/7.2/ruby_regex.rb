@@ -11,15 +11,15 @@
 
 # The Ruby operator =~ matches a string against a pattern. It returns the character offset into the string at which the match occurred:
 
-puts /cat/ =~ "dog and cat"
-puts /cat/ =~ "catch"
-puts /cat/ =~ "Cat"
+p /cat/ =~ "dog and cat"
+p /cat/ =~ "catch"
+p /cat/ =~ "Cat"
 
 # You can put the string first if you prefer:
 
-puts "dog and cat" =~ /cat/
-puts "catch"       =~ /cat/
-puts "Cat"         =~ /cat/
+p "dog and cat" =~ /cat/
+p "catch"       =~ /cat/
+p "Cat"         =~ /cat/
 
 # Because pattern matching returns nil when it fails, and because nil is equivalent to the boolean false, you can use the result of a pattern match as a condition in statements such as if and while.
 
