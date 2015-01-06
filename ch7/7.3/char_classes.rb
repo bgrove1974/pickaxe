@@ -1,11 +1,4 @@
-def show_regexp(string, pattern)
-  match = pattern.match(string)
-  if match
-    "#{match.pre_match}->#{match[0]}<-#{match.post_match}"  
-  else
-    "no match"
-  end
-end
+require_relative 'show_regexp'
 
 # A character class is a set of characters between brackets: [characters] matches any single character between the brackets, so  [aeiou] matches a vowel, [,.:;!?] matches some punctuation, and so on.
 # The significance of the special regular expression characters [.|(){}+^$*?] is turned off inside the brackets. However, normal string substitution still occurs, so (for example) \b represents a backspace character, and \n represents a new line.

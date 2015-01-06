@@ -1,3 +1,5 @@
+require_relative 'show_regexp'
+
 # The asterisk (*) is one of a number of modifiers that allow you to match multiple occurrences of a pattern.
 # If r stands for the immediately preceding regexp within a pattern, then:
 
@@ -14,15 +16,6 @@
 # These patterns are called greedy, because by default they will match as much of the string as they can. You can alter this behavior and have them match the minimum by adding a ? suffix. The repetition is then called lazy -- it stops once it has done the minimum amount of work required.
 
 # Remember, a pattern that contains just a * repetition will always match whatever string you pass it.
-
-def show_regexp(string, pattern)
-  match = pattern.match(string)
-  if match
-    "#{match.pre_match}->#{match[0]}<-#{match.post_match}"  
-  else
-    "no match"
-  end
-end
 
 a = "The moon is made of cheese"
 puts a 

@@ -1,11 +1,4 @@
-def show_regexp(string, pattern)
-  match = pattern.match(string)
-  if match
-    "#{match.pre_match}->#{match[0]}<-#{match.post_match}"  
-  else
-    "no match"
-  end
-end
+require_relative 'show_regexp'
 
 # Within a pattern, all characters match themselves except:
 # . | () [] {} + \ ^ $ * ? 
