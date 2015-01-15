@@ -1,3 +1,3 @@
 Code from the pickaxe book, third edition.
 
-Ch 8.2 Hash and Keyword Arguments pp 122
+Ch 9 Expressions pp 125
