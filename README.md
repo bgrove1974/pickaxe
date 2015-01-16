@@ -1,3 +1,3 @@
 Code from the pickaxe book, third edition.
 
-Ch 9.3 Splats and Assignment pp 130
+Ch 9.3 Nested Assignments pp 131
