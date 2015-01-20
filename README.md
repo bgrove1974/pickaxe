@@ -1,3 +1,3 @@
 Code from the pickaxe book, third edition.
 
-Ch 9.5 case Expressions pp 136
+Ch 9.6 Loops pp 138
