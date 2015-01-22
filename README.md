@@ -1,3 +1,3 @@
 Code from the pickaxe book, third edition.
 
-Ch 10.2 System Errors pp 148
+Ch 10.2 Tidying Up pp 148
