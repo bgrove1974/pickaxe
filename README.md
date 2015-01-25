@@ -1,3 +1,3 @@
 Code from the pickaxe book, third edition.
 
-Ch 11.3 Doing I/O with Strings pp 158
+Ch 11.4 Talking to Networks pp 158
