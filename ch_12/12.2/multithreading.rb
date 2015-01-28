@@ -1,0 +1,4 @@
+# Often the simplest way to do two things at once is to use Ruby threads. Prior to Ruby 1.9, these were implemented as green threads -- threads were switched within the interpreter. In Ruby 1.9, threading is now performed by the operating system.
+# This is an improvement, but not quite as big an improvement as you might want. Although threads can now take advantage of multiple processors (and multiple cores on a single processor), there's a major catch.
+# Many Ruby extension libraries are not thread safe (because they were written for the old threading model). So Ruby compromises; it uses native operating system threads but operates only a single thread at a time. You will never see two threads in the same application running Ruby code truly concurrently.
+# You will, however, see threads busy doing, say, I/O while another thread executes Ruby code. That's part of the point.

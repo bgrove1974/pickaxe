@@ -1,3 +1,3 @@
 Code from the pickaxe book, third edition.
 
-Ch 12.1 Fibers, Coroutines, and Continuations pp 163
+Ch 12.2 Creating Ruby Threads pp 163
