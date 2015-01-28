@@ -1,3 +1,3 @@
 Code from the pickaxe book, third edition.
 
-Ch 12.2 Thread Variables pp 165
+Ch 12.2 Threads and Exceptions pp 165
