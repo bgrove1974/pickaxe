@@ -1,3 +1,3 @@
 Code from the pickaxe book, third edition.
 
-Ch 12.3 Controlling the Thread Scheduler pp 167
+Ch 12.4 Mutual Exclusion pp 167
