@@ -28,4 +28,4 @@ class Roman
   end 
 end
 
-# Test code can be found in test_romanbug.rb.
+# Test code can be found in test_romanbug.rb, and assertions.rb.
