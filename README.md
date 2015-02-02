@@ -1,3 +1,3 @@
 Code from the pickaxe book, third edition.
 
-Ch 13.4 RSpec and Shoulda pp 186
+Ch 13.4 Starting to Score Tennis Matchess pp 186
