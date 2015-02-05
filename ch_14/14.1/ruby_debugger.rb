@@ -12,14 +12,13 @@
 # To give you an idea of what the Ruby debugger is like, here's a sample session:
 
 # $ ruby -r debug t.rb 
-# $ list 1-9 
-# $ b 2
-# $ c 
-# $ disp n 
-# $ del 1 
-# $ watch n==1 
-# $ c 
-# $ where 
-# $ del 2
-# $ c 
- 
+# $ list 1-9      
+# $ b 2             set breakpoint at line 2; b with no parameters displays breakpoints and watchpoints
+# $ c               continues execution
+# $ disp n          displays value of n every time debugger gets control
+# $ del 1           deletes breakpoint 1 (default all)
+# $ watch n==1      breaks when expression becomes true/set watchpoint 2
+# $ c               continues execution
+# $ where           displays current call stack
+# $ del 2           deletes watchpoint 2
+# $ c               continues/completes execution and closes debugger

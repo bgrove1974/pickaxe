@@ -1,3 +1,3 @@
 Code from the pickaxe book, third edition.
 
-Ch 14.2 Interactive Ruby pp 196
+Ch 14.3 Editor Support pp 197
