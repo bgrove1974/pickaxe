@@ -1,3 +1,3 @@
 Code from the pickaxe book, third edition.
 
-Ch 14.5 The Profiler pp 202
+Ch 14.5 Code Execution Coverage pp 204
