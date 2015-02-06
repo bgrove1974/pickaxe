@@ -1,3 +1,3 @@
 Code from the pickaxe book, third edition.
 
-Ch 14.5 Code Execution Coverage pp 204
+Ch 15 Ruby and Its World pp 209
