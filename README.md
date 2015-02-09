@@ -1,3 +1,3 @@
 Code from the pickaxe book, third edition.
 
-Ch 15.2 Program Termination pp 214
+Ch 15.3 Environment Variables pp 214
