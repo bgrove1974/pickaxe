@@ -1,3 +1,3 @@
 Code from the pickaxe book, third edition.
 
-Ch 15.5 Reading the Gem Documentation pp 218
+Ch 15.5 Using a Gem pp 219
