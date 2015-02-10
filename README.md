@@ -1,3 +1,3 @@
 Code from the pickaxe book, third edition.
 
-Ch 15.4 Where Ruby Finds Its Libraries pp 216
+Ch 15.5 RubyGems Integration pp 217
