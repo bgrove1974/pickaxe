@@ -9,7 +9,7 @@ module Anagram
       new(File.readlines(file_name))           
     end
 
-    def initialize
+    def initialize(dictionary_words)
       @signatures = Hash.new
       dictionary_words.each do |line|
         word = line.chomp
