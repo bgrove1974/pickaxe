@@ -1,3 +1,3 @@
 Code from the pickaxe book, third edition.
 
-Ch 16 Namespaces, Source Files, and Distribution pp 225
+Ch 16.2 Organizing Your Source pp 226
