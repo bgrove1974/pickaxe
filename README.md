@@ -1,3 +1,3 @@
 Code from the pickaxe book, third edition.
 
-Ch 16.2 'Let's start with the option parser' pp 229
+Ch 16.3 Distributing and Installing Your Code pp 233
