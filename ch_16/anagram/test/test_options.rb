@@ -49,6 +49,6 @@ end
 
 # $ ruby test_options.rb 
 
-# To run the tests from the top-level anagram directory, use the following command:
+# To run the tests from the bottom-level anagram directory, use the following command:
 
 # $ ruby test/test_options.rb 
