@@ -1,3 +1,3 @@
 Code from the pickaxe book, third edition.
 
-Ch 16.3 Adding Even More Automation pp 237
+Ch 17 Character Encoding pp 239
