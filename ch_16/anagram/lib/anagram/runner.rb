@@ -27,7 +27,7 @@ end
 # In this case, the two libraries finder and options are in the same directory as the runner, so require_relative finds them perfectly.
 
 # Now that all of our files are in place, we can run our program from the command line.
-# Switch to the bottom-level anagram directory and run the following:
+# Switch to the top-level anagram directory and run the following:
 
 # $ ruby -I lib bin/anagram teaching code
 
