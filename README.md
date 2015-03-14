@@ -1,3 +1,3 @@
 Code from the pickaxe book, third edition.
 
-Ch 17.7 Default Internal Encoding pp 250
+Ch 17.8 Fun with Unicode pp 251
