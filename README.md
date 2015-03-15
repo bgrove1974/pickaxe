@@ -1,3 +1,3 @@
 Code from the pickaxe book, third edition.
 
-Ch 18.1 Tab Completion pp 254
+Ch 18.1 Subsessions pp 256
