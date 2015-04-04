@@ -7,3 +7,5 @@ def fibonacci_sequence
     end
   end
 end
+
+p fibonacci_sequence.first(10)

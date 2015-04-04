@@ -1,0 +1,56 @@
+At the irb prompt, you can enter any valid Ruby expression and see the results.
+You can also use any of the following commands to control the irb session.
+
+help ClassName, string, or symbol
+	Displays the ri help for a given thing
+	# This didn't work for my version of irb, I'm going to have to check that out.
+
+exit, quit, irb_exit, irb_quit
+	Quits this irb session or subsession.
+	If you have used cb to change bindings (detailed in a moment), exits from this binding mode.
+
+conf, context, irb_context
+	Displays current configuration.
+	Modifying the configuration is achieved by invoking methods of conf.
+	The list in 'irb Configuration Options', pp 259, shows the available conf settings.
+
+	For example, to set the default prompt to something subservient, you could use this:
+
+	⇒  irb
+	2.2.1 :001 > conf.prompt_i = "Yes, Master? "
+ 	=> "Yes, Master? " 
+	Yes, Master? 1 + 2
+	=> 3 
+	Yes, Master? 
+
+cb, irb_change_binding <obj>
+	Creates and enters a new binding (sometimes called a workspace) that has its own scope for local variables.
+	If <obj> is given, it will be used as self in the new binding.
+
+pushb obj, popb
+	Pushes and pops the current binding.
+
+bindings
+	Lists the current bindings.
+
+irb_cwws
+	Prints the object that is the current binding of the workspace.
+
+irb <obj>
+	Starts an irb subsession.
+	If <obj> is given, it will be used as self.
+
+jobs, irb_jobs
+	Lists irb subsessions.
+
+fg n, irb_fg n
+	Switches into the specified irb subsession.
+	n may be any of the following: an irb subsession number, a thread ID, an irb object, or the object that was the value of self when a subsession was launched.
+
+kill n, irb_kill n
+	Kills an irb subsession.
+	n may be any of the values as described for irb_fg.
+
+source filename
+	Loads and executes the given file, displaying the source lines.
+	
