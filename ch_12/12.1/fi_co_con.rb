@@ -1,6 +1,0 @@
-# Fibers, Coroutines, and Continuations
-
-# The basic fiber support in Ruby is limited -- fibers can yield control only back to the code that resumed them. However, Ruby comes with two standard libraries that extend this behavior. The fiber library (described in the library section on pp 755) adds full coroutine support. Once it is loaded, fibers gain a transfer method, allowing them to transfer control to other arbitrary fibers.
-
-# A ralated but more general mechanism is the continuation. A continuation is a way of recording the state of your running program (where it is, the current binding, and so on) and then resuming from that state at some pont in the future. You can use continuations to implement coroutines (and other new control structures). Continuations can also be used to store the state of a running web application between requests -- a continuation is created when the application sends a response to the browser; then, when the next request arrives from that browser, the continuation is invoked, and the application continues from where it left off. You enable continuations in Ruby by requiring the continuation library, described in the library section on pp 739.
- 

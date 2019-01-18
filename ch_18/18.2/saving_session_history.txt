@@ -1,6 +1,0 @@
-Saving Your Session History
-
-If you have readline support in irb, (that is, you can hit the up arrow key and irb recalls the previous command you entered), then you can also configure irb to remember the commands you enter between sessions.
-Simply add the following to your .irbrc file:
-
-IRB.conf[:SAVE_HISTORY] = 50    # save last 50 commands
